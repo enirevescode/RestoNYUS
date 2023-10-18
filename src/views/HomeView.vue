@@ -4,7 +4,7 @@ import NavBar_Route from '../components/NavBar_Route.vue';
 </script>
 
 <template>
-  <main>
+  <main class="bg-img-accueil">
     <Nav_Bar/>
     <NavBar_Route/>
    <h1>nonnnnn</h1>

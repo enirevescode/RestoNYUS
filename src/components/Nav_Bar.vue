@@ -2,36 +2,29 @@
 
 </script>
 <template>
-<div>
-  
-    <v-toolbar height="90">
-       
+<header>
+    <v-toolbar height="100">  
        <v-img
-       src="https://picsum.photos/500/300?image=232"
-       width="80"></v-img>
-        <h1>hey00000000000000000000000000 navbar</h1>
+       src="../assets/logo.webp"
+       ></v-img>
+        
          <v-spacer></v-spacer> 
 
          <v-col cols="auto" class="mr-16">
             <v-btn size="x-large" variant="outlined" color="white"><router-link active-class="active"
                   to="/resa">Réservation</router-link></v-btn>
          </v-col>
-  
     </v-toolbar>
-    
-
-</div>
+</header>
 
 </template>
 <style scoped>
-.navbar {
-   display: inline-flex;
-   vertical-align: auto;
-}
+
 
 header {
    background-color: transparent !important;
    position: absolute;
+   font-size: 26px;
 }
 
 img {
