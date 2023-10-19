@@ -1,14 +1,22 @@
 <script setup>
-import Nav_Bar from '@/components/Nav_Bar.vue'
-import NavBar_Route from '../components/NavBar_Route.vue';
+
+
 </script>
 
 <template>
-  <main class="bg-img-accueil">
-    <Nav_Bar/>
-    <NavBar_Route/>
+  <div class="bg-img-accueil">
+<br>
+  
+<br>
+  
+<br>
+  
+<br>
+  
+<br>
+  
    <h1>nonnnnn</h1>
-  </main>
+  </div>
 </template>
 <style scoped>
 .bg-img-accueil{

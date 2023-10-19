@@ -1,30 +1,35 @@
 <script setup>
+import NavBar_Route from '@/components/NavBar_Route.vue';
+
 
 </script>
 <template>
-<header>
+<div>
     <v-toolbar height="100">  
        <v-img
        src="../assets/logo.webp"
+       alt="logo" height="50" class="ml-n16"
        ></v-img>
-        
-         <v-spacer></v-spacer> 
+      <v-spacer></v-spacer> 
 
-         <v-col cols="auto" class="mr-16">
+      <NavBar_Route/>
+
+         <v-col cols="auto">
             <v-btn size="x-large" variant="outlined" color="white"><router-link active-class="active"
                   to="/resa">Réservation</router-link></v-btn>
          </v-col>
     </v-toolbar>
-</header>
-
+</div>
 </template>
 <style scoped>
-
+.navbar {
+   /* display: inline-flex; */
+   vertical-align: auto;
+}
 
 header {
    background-color: transparent !important;
    position: absolute;
-   font-size: 26px;
 }
 
 img {
@@ -41,7 +46,7 @@ a {
 .active {
    font-weight: 900;
    color: rgb(250, 211, 144);
-   font-size: 15px;
+   font-size: 26px;
    text-decoration: none;
    letter-spacing: 1.2;
 }
