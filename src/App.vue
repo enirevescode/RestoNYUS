@@ -9,7 +9,7 @@ import Nav_Bar from './components/Nav_Bar.vue';
   <Nav_Bar/>
   <RouterView />
 </template>
-<style module>
+<style>
 
 .v-container {
   max-width: 100%;
