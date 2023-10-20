@@ -8,41 +8,42 @@
       width="100%"
       color="transparent"
     >
+  
       <div>
-        <slot name="titre">
-            <!-- <div class="text-titre"> -->
-            A Really Good Place to Eat In the City of New York!
-            <!-- </div> -->
-        </slot>
-        <br>
-  
-        <slot name="ss-titre">
-            <div class="text-h6 font-weight-medium mb-2">
-            You are officially a part of the Vuetify Community!
+            <div class="text-titre">
+            <slot name="titre"></slot>
             </div>
-        </slot>
-  
-        <!-- <slot name="p"><p class="text-body-2 mb-4">
-          Please head over to your inbox/spam or others folder to find our verificaiton email.
-        </p></slot> -->
-  
-        <!-- <v-btn variant="text">Go to Login</v-btn> -->
+        <br>
+        <br>
+            <div class="text-ss-titre">
+            <slot name="ss-titre"></slot>
+            </div>
       </div>
-      
-            <v-divider
+
+        <v-divider
             :thickness="2"
             class="border-opacity-100"
+            inset
             color="#fad390"
             vertical
-            ></v-divider>
+        ></v-divider>
     </v-sheet>
 </template>
 <style>
-.n-titre {
+.text-titre {
     font-size: 3.75rem !important;
     font-weight: 300;
     line-height: 3.75rem;
     letter-spacing: -0.0083333333em !important;
+    font-family: "Roboto", sans-serif !important;
+    text-transform: none !important;
+}
+
+.text-ss-titre {
+    font-size: 1.25rem !important;
+    font-weight: 500;
+    line-height: 2rem;
+    letter-spacing: 0.0125em !important;
     font-family: "Roboto", sans-serif !important;
     text-transform: none !important;
 }
