@@ -1,4 +1,5 @@
 <script setup>
+import CardPhotoMenu from '../components/slots/CardPhotoMenu.vue';
 import HeroCard from '../components/slots/HeroCard.vue'
 </script>
 <template>
@@ -9,6 +10,10 @@ import HeroCard from '../components/slots/HeroCard.vue'
         <template #ss-titre>Massa praesent sit suspendisse ac volutpat amet. Commodo elit at non neque ullamcorper id.</template>
         </HeroCard>
     </v-container>
+
+    <CardPhotoMenu>
+        
+    </CardPhotoMenu>
 </template>
 <style scoped>
 .v-container {
