@@ -1,17 +1,21 @@
+<script setup>
+
+</script>
 <template>
     <v-row>
-        <div>
-        <v-col cols="4" class="appetizer">
-           <div class="apetizer">
-            <v-img
-            :src="require('./assets/img/appetizer.webp')"
-            width="480"
-            height="445"
-            > <slot name="img"></slot>
-            </v-img>
+        <div class="appetizer">
+            <v-col cols="4">
+            
+                <v-img
+                src="@/assets/img/appetizer.webp"
+                width="480"
+                height="445"
+                > <slot name="img"></slot>
+                </v-img>
 
-            </div>
-        </v-col>
+            
+            </v-col>
+        </div>
         <v-col cols="8" class="appetizer">
       
         <h2 class="mt-10">Appetizer</h2>
@@ -35,7 +39,7 @@
             </div>
         </v-col>
         </v-col>
-        </div>
+     
     </v-row>
     </template>
  
