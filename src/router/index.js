@@ -14,7 +14,7 @@ const router = createRouter({
     },
     {
       path: '/Menu',
-      name: 'MenuPage',
+      name: 'Menu',
       component: MenuPage
     },
     {

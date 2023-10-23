@@ -17,6 +17,7 @@ import HeroCard from './slots/HeroCard.vue';
         <v-btn variant="text">Go to Login</v-btn>
         </div>
         </v-container>
+        
     </div>
 </template>
 <style scoped>

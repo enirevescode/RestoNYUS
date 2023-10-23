@@ -1,19 +1,18 @@
 <script setup>
-import CardPhotoMenu from '../components/slots/CardPhotoMenu.vue';
+
 import HeroCard from '../components/slots/HeroCard.vue'
+import ApetizerCard from '../components/slots/ApetizerCard.vue'
 </script>
 <template>
-    
+   
     <v-container id="menu">
         <HeroCard>
         <template #titre>Our Menu</template>
-        <template #ss-titre>Massa praesent sit suspendisse ac volutpat amet. Commodo elit at non neque ullamcorper id.</template>
+        <template #ss-titre>Massa praesent sit suspendisse ac volutpat amet. Commodo elit at non neque ullamcorper id.</template> 
+       
         </HeroCard>
     </v-container>
 
-    <CardPhotoMenu>
-        
-    </CardPhotoMenu>
 </template>
 <style scoped>
 .v-container {
@@ -26,5 +25,8 @@ import HeroCard from '../components/slots/HeroCard.vue'
     height: 750px;
 }
 
-
+h1{
+    color: red;
+    font-weight: 900;
+}
 </style>
