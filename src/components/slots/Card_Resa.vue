@@ -36,6 +36,7 @@
         height="400"
         id="cake"
         ></v-img> -->
+        <slot name="resa"></slot>
     </v-sheet>
   
   </template>

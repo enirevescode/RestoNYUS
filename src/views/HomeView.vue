@@ -1,7 +1,7 @@
 <script setup>
 
 import Card_Accueil from '../components/Card_Accueil.vue';
-
+import Card_Resa from '../components/slots/Card_Resa.vue'
 
 
 </script>
@@ -15,7 +15,10 @@ import Card_Accueil from '../components/Card_Accueil.vue';
 <br>
   
 <br>
-  
+<Card_Resa>
+
+
+</Card_Resa>
 <br>
   
 
