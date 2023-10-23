@@ -1,4 +1,5 @@
 <script setup>
+import Card_Resa from '../components/slots/Card_Resa.vue';
 import HeroCard from '../components/slots/HeroCard.vue'
 </script>
 <template>
@@ -8,6 +9,13 @@ import HeroCard from '../components/slots/HeroCard.vue'
         <template #ss-titre>Massa praesent sit suspendisse ac volutpat amet. Commodo elit at non neque ullamcorper id.</template>
         </HeroCard>
     </v-container>
+    
+    <h3>OUR LOCATION</h3>
+    <h1>3 E 19th St, 123 Fifth Avenue, NY 10160, New York, USA</h1>
+    
+    <Card_Resa>
+        
+    </Card_Resa>
 </template>
 <style scoped>
 .v-container {
@@ -20,5 +28,16 @@ import HeroCard from '../components/slots/HeroCard.vue'
     height: 750px;
 }
 
+h1, h3 {
+    margin-top: 50px;
+    margin-bottom: 70px;
+    text-align: center;
+    letter-spacing: 1.2;
+}
 
+h1 {
+    font-size: 30px;
+    font-weight: 900!important;
+    width: 720px;
+}
 </style>

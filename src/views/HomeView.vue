@@ -16,8 +16,6 @@ import Card_Resa from '../components/slots/Card_Resa.vue'
   
 <br>
 <Card_Resa>
-
-
 </Card_Resa>
 <br>
   

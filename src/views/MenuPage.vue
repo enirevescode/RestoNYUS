@@ -1,7 +1,8 @@
 <script setup>
 
 import HeroCard from '../components/slots/HeroCard.vue'
-import ApetizerCard from '../components/slots/ApetizerCard.vue'
+import Card_Resa from '../components/slots/Card_Resa.vue'
+
 </script>
 <template>
    
@@ -12,7 +13,9 @@ import ApetizerCard from '../components/slots/ApetizerCard.vue'
        
         </HeroCard>
     </v-container>
-
+<Card_Resa>
+<div class="bg-img_resa"></div>
+</Card_Resa>
 </template>
 <style scoped>
 .v-container {
@@ -28,5 +31,12 @@ import ApetizerCard from '../components/slots/ApetizerCard.vue'
 h1{
     color: red;
     font-weight: 900;
+}
+
+.bg-img_resa {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.56), rgba(102, 99, 99, 0.56)),
+    url('src\assets\img\topview.webp');
+    background-size: cover;
 }
 </style>

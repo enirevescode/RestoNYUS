@@ -9,7 +9,7 @@
                 width="480"
                 height="445">
                 <slot name="img"></slot>
-                </v-img>           
+                </v-img>
             </v-col>
             
         <v-col cols="8" class="appetizer">
@@ -39,9 +39,7 @@
 
     </v-row>
     </template>
- 
-    
-    
+
 <style scoped>
     .v-container {
         max-width: 100%;
