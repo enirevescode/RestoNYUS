@@ -25,7 +25,7 @@ import Card_Accueil from '../components/Card_Accueil.vue';
 .bg-img-accueil{
    height: 100vh;
    background-image: linear-gradient(rgba(0, 0, 0, 0.56), rgba(102, 99, 99, 0.56)),
-   url('../assets/homepage.webp');
+   url('@/assets/img/homepage.webp');
    background-size: cover;
   }
 </style>
