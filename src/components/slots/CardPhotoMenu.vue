@@ -3,31 +3,28 @@
 </script>
 <template>
     <v-row>
-        <div class="appetizer">
-            <v-col cols="4">
-            
+            <v-col cols="4" class="appetizer">
                 <v-img
-                src="@/assets/img/appetizer.webp"
+                src="src\assets\img\appetizer.webp"
                 width="480"
-                height="445"
-                > <slot name="img"></slot>
-                </v-img>
-
-            
+                height="445">
+                <slot name="img"></slot>
+                </v-img>           
             </v-col>
-        </div>
+            
         <v-col cols="8" class="appetizer">
       
-        <h2 class="mt-10">Appetizer</h2>
+        <h2 class="mt-10"><slot name="titre-Card-Menu">Appetizer</slot></h2>
        
             <p class="text-left">Lorem sollicitudin quis amet, pellentesque et proin. Venenatis iaculis nibh neque sit ullamcorper ac dictumst. Amet dignissim nunc gravida eu vestibulum elit. In lorem ornare sollicitudin aliquet nunc cum massa.</p>
        
         <v-col cols="3" class="float-left mt-6">
-            <!-- <v-img
-            :src="require('@/assets/plate-of-cookie.webp')"
+            <v-img
+            src='src\assets\img\plate-of-cookie.webp'
             height="100"
-            class="img"
-            ></v-img> -->
+            class="img">
+            <slot name="Small-img"></slot>
+            </v-img>
         </v-col>
         <v-col cols="6" class="float-left mt-6">
             <div class="text">
@@ -39,7 +36,7 @@
             </div>
         </v-col>
         </v-col>
-     
+
     </v-row>
     </template>
  
