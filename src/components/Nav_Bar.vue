@@ -7,7 +7,7 @@ import NavBar_Route from '@/components/NavBar_Route.vue';
 <div>
     <v-toolbar height="100">  
        <v-img
-       src="../assets/logo.webp"
+       src="../assets/img/logo.webp"
        alt="logo" height="50" class="ml-n16"
        ></v-img>
       <v-spacer></v-spacer> 

@@ -12,17 +12,7 @@ import ApetizerCard from '../components/slots/ApetizerCard.vue'
        
         </HeroCard>
     </v-container>
-    <br>
-    <br> 
-    <br>
-    <br>
-    <div>
-        <ApetizerCard>
-            <template #titre>nnnnoooonnnnn</template>
-        </ApetizerCard>
 
-        
-    </div>
 </template>
 <style scoped>
 .v-container {
@@ -30,7 +20,7 @@ import ApetizerCard from '../components/slots/ApetizerCard.vue'
 }
 
 #menu {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(102, 99, 99, 0.8)), url('@/assets/signature.webp');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(102, 99, 99, 0.8)), url('@/assets/img/signature.webp');
     background-size: cover;
     height: 750px;
 }
