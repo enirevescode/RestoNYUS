@@ -6,7 +6,9 @@
             inset
             color="#fad390"
             vertical
-        ></v-divider>
-        <slot name="divider"></slot>
+        >
+           
+        </v-divider>
+         <slot>dzXDFFD</slot>
     </div>
 </template>
