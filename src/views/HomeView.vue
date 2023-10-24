@@ -9,11 +9,7 @@ import Card_Resa from '../components/slots/Card_Resa.vue'
 <template>
   <div class="bg-img-accueil">
 <br>
-<br> 
-<br>
 <Card_Accueil/>
-<br>
-  
 <br>
 <Card_Resa>
 </Card_Resa>
