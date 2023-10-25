@@ -12,12 +12,11 @@ import CardPhotoMenu from '../components/slots/CardPhotoMenu.vue';
         <template #ss-titre>Massa praesent sit suspendisse ac volutpat amet. Commodo elit at non neque ullamcorper id.</template>
         </HeroCard>
     </v-container>
-    <CardPhotoMenu>
-
-    </CardPhotoMenu>
-    <Card_Resa>
-        <div class="bg-img_resa"></div>
-    </Card_Resa>
+        <CardPhotoMenu>
+        </CardPhotoMenu>
+        <Card_Resa>
+            <div class="bg-img_resa"></div>
+        </Card_Resa>
 </template>
 <style scoped>
 .v-container {
