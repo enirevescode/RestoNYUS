@@ -9,8 +9,7 @@ import Card_Resa from '../components/slots/Card_Resa.vue'
     <v-container id="menu">
         <HeroCard>
         <template #titre>Our Menu</template>
-        <template #ss-titre>Massa praesent sit suspendisse ac volutpat amet. Commodo elit at non neque ullamcorper id.</template> 
-       
+        <template #ss-titre>Massa praesent sit suspendisse ac volutpat amet. Commodo elit at non neque ullamcorper id.</template>
         </HeroCard>
     </v-container>
 <Card_Resa>
