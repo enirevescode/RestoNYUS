@@ -1,7 +1,7 @@
 <script setup>
-
 import HeroCard from '../components/slots/HeroCard.vue'
 import Card_Resa from '../components/slots/Card_Resa.vue'
+import CardPhotoMenu from '../components/slots/CardPhotoMenu.vue';
 
 </script>
 <template>
@@ -12,9 +12,12 @@ import Card_Resa from '../components/slots/Card_Resa.vue'
         <template #ss-titre>Massa praesent sit suspendisse ac volutpat amet. Commodo elit at non neque ullamcorper id.</template>
         </HeroCard>
     </v-container>
-<Card_Resa>
-<div class="bg-img_resa"></div>
-</Card_Resa>
+    <CardPhotoMenu>
+
+    </CardPhotoMenu>
+    <Card_Resa>
+        <div class="bg-img_resa"></div>
+    </Card_Resa>
 </template>
 <style scoped>
 .v-container {
