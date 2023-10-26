@@ -2,6 +2,7 @@
 import HeroCard from '../components/slots/HeroCard.vue'
 import Card_Resa from '../components/slots/Card_Resa.vue'
 import CardPhotoMenu from '../components/slots/CardPhotoMenu.vue';
+import Dishes_Menu from '../components/Dishes_Menu.vue';
 
 </script>
 <template>
@@ -14,6 +15,7 @@ import CardPhotoMenu from '../components/slots/CardPhotoMenu.vue';
     </v-container>
         <CardPhotoMenu>
         </CardPhotoMenu>
+        <Dishes_Menu/>
         <Card_Resa>
             <div class="bg-img_resa"></div>
         </Card_Resa>

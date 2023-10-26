@@ -6,8 +6,8 @@ import Array_Menu from './slots/Array_Menu.vue';
 <template>
     <div>
 <Array_Menu >
-    <template #dish="{dish}">
-    {{ dish.plat }} - {{ dish.prix }} {{ dish.ingredient }}
+    <template #dish="slotProps">
+    <!-- {{ slotProps.plat }} - {{ slotProps.prix }} {{ slotProps.ingredient }} -->
     </template>
 </Array_Menu>
     </div>

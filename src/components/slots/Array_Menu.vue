@@ -1,7 +1,7 @@
 <script setup>
 import {ref} from 'vue';
 
-const dish = ref([
+const dishes = ref([
                 {
                 "id": 1,
                 "plat": "LEMON AND GARLIC GREEN BEANS",
