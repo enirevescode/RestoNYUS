@@ -46,6 +46,7 @@ const dishes = ref([
                   },
                   {
                 "id": 8,
+                "category": "appetizer",
                 "plat": "IMPORTED OYSTERS GRILL (5 PIECES)",
                 "prix": "20.00",
                 "ingredient": "Oysters / Veggie / Ginger"
@@ -60,7 +61,7 @@ const dishes = ref([
             <p class="text-h6 text-left">{{dish.plat}} - {{ dish.prix }}</p>
             <p class="text-subtitle-1 text-left" color="#7a7a7a">{{dish.ingredient}}</p>
             <v-divider class="border-opacity-50 ml-1 mr-6 my-5" color="white" inset></v-divider>
-            <slot name="dish" :id="dish.id" :plat="dish.plat" :prix="dish.prix" :ingredient="dish.ingredient"></slot>
+            <slot name="dish" :plat="dish.plat" :prix="dish.prix" :ingredient="dish.ingredient"></slot>
           </v-sheet>
         </v-col>
       </v-row>

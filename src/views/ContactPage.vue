@@ -1,4 +1,5 @@
 <script setup>
+import Card_Img_Cake from '../components/slots/Card_Img_Cake.vue';
 import Card_Resa from '../components/slots/Card_Resa.vue';
 import HeroCard from '../components/slots/HeroCard.vue'
 </script>
@@ -13,9 +14,10 @@ import HeroCard from '../components/slots/HeroCard.vue'
     <h3>OUR LOCATION</h3>
     <h1>3 E 19th St, 123 Fifth Avenue, NY 10160, New York, USA</h1>
     
-    <Card_Resa>
+    <Card_Resa/>
         
-    </Card_Resa>
+   
+    <Card_Img_Cake></Card_Img_Cake>
 </template>
 <style scoped>
 .v-container {
