@@ -12,7 +12,8 @@ import HeroCard from '../components/slots/HeroCard.vue'
     </v-container>
     
     <h3>OUR LOCATION</h3>
-    <h1>3 E 19th St, 123 Fifth Avenue, NY 10160, New York, USA</h1>
+    <h1>3 E 19th St, 123 Fifth Avenue,</h1>
+    <h1>NY 10160, New York, USA</h1>
     
     <Card_Resa/>
         
@@ -32,17 +33,17 @@ import HeroCard from '../components/slots/HeroCard.vue'
 }
 
 h1, h3 {
-    margin-top: 50px;
     text-align: center;
     letter-spacing: 2px;
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: 900!important;
 }
 
 h3 {
+    margin-top: 70px;
     font-size: 0.81rem;
     font-weight: 700;
 }

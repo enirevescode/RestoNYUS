@@ -28,7 +28,7 @@ import Card_Resa from '../components/slots/Card_Resa.vue'
 .bg-img-accueil{
    height: 100vh;
    background-image: linear-gradient(rgba(0, 0, 0, 0.56), rgba(102, 99, 99, 0.56)),
-   url('src\assets\img\homepage.webp');
+   url('C:\Users\Thomas Magnum\RestoNYUS\src\assets\img\homepage.webp');
    background-size: cover;
   }
 </style>
