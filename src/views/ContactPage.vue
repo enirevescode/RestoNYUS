@@ -22,6 +22,7 @@ import HeroCard from '../components/slots/HeroCard.vue'
 <style scoped>
 .v-container {
   max-width: 100%;
+  background-color: #e9ecef;
 }
 
 #menu {
@@ -32,14 +33,17 @@ import HeroCard from '../components/slots/HeroCard.vue'
 
 h1, h3 {
     margin-top: 50px;
-    margin-bottom: 70px;
     text-align: center;
-    letter-spacing: 1.2;
+    letter-spacing: 2px;
 }
 
 h1 {
     font-size: 30px;
     font-weight: 900!important;
-    width: 720px;
+}
+
+h3 {
+    font-size: 0.81rem;
+    font-weight: 700;
 }
 </style>

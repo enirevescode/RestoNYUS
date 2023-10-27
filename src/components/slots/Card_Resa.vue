@@ -9,7 +9,7 @@
       width="100%"
     >
       <div>
-        <h1 class="text-h2 font-weight-black mt-16">Réservation</h1>
+        <h1 class="text-h2 font-weight-black">Réservation</h1>
   
         <div class="text-h6 font-weight-medium my-2">
           Neque elit, rutrum in laoreet nec eget scelerisque volutpat sit. Bibendum tincidunt a scelerisque consectetur ultrices elementum pulvinar non.
