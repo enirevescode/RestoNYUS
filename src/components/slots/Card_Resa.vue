@@ -6,8 +6,7 @@
       height="550"
       rounded
       max-width="900"
-      width="100%"
-    >
+      width="100%">
       <div>
         <h1 class="text-h2 font-weight-black">Réservation</h1>
   
@@ -22,11 +21,10 @@
   
         <p class="text-h3 my-4">
           
-         <v-icon icon="mdiPhone"></v-icon>Telephone Reservations
+         <v-icon icon="mdi-Phone"></v-icon>Telephone Reservations
         </p>
-  <p class="tel">12 34 56 7829</p>
+        <p class="tel">12 34 56 7829</p>
         </div>
-        <slot name="resa"></slot>
     </v-sheet>
   </template>
   
