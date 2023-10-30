@@ -5,14 +5,14 @@ import Dishes_Menu from '../components/Dishes_Menu.vue';
 import CardPhotoAppetizer from '../components/CardPhotoAppetizer.vue';
 
 </script>
-<template>
+<template class="background-color">
    
     <v-container id="menu">
         <HeroCard>
         <template #titre>Our Menu</template>
         <template #ss-titre>Massa praesent sit suspendisse ac volutpat amet. Commodo elit at non neque ullamcorper id.</template>
         </HeroCard>
-    </v-container>
+    </v-container >
         <CardPhotoAppetizer/>
         <Dishes_Menu/>
         <Card_Resa>
@@ -23,7 +23,9 @@ import CardPhotoAppetizer from '../components/CardPhotoAppetizer.vue';
 .v-container {
   max-width: 100%;
 }
-
+.background-color{
+    background-color: 
+}
 #menu {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(102, 99, 99, 0.8)), url('@/assets/img/signature.webp');
     background-size: cover;

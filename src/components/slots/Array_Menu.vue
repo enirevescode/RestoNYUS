@@ -54,16 +54,33 @@ const dishes = ref([
 ])
 </script>
 <template>
-    <div>
-        <v-row align="start" no-gutters style="height: 120px;" v-for="dish in dishes" :key="dish.id">
-        <v-col>
-          <v-sheet class="px-3 mx-3" color= "#1a1a1a">
+    <v-container class="my-16 mx-16">
+        <v-row align-content='stretch' no-gutters style="height: auto;" v-for="dish in dishes" :key="dish.id">
+        <v-col cols="4" v-for="n in 3">
+          <v-sheet class="px-3 mx-3" color= "transparent">
             <p class="text-h6 text-left">{{dish.plat}} - {{ dish.prix }}</p>
-            <p class="text-subtitle-1 text-left" color="#7a7a7a">{{dish.ingredient}}</p>
-            <v-divider class="border-opacity-50 ml-1 mr-6 my-5" color="white" inset></v-divider>
-            <slot name="dish" :plat="dish.plat" :prix="dish.prix" :ingredient="dish.ingredient"></slot>
+            <p class="text-subtitle-1 text-left">{{dish.ingredient}}</p>
+            <v-divider class="border-opacity-50 ml-1 mr-6 my-5" color="#7a7a7a" inset></v-divider>
           </v-sheet>
         </v-col>
       </v-row>
-    </div>
+    </v-container>
 </template>
+<style scoped>
+
+.v-container {
+  background-color: transparent;
+  padding: 50px 50px 50px 50px!important;
+  margin: auto !important;;
+  width: 100rem;
+}
+
+.text-subtitle-1 {
+  color: #7a7a7a;
+}
+
+.text-h6 {
+  color: #7a7a7a;
+  font-weight: 200;
+}
+</style>
