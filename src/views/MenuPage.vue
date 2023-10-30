@@ -1,8 +1,8 @@
 <script setup>
 import HeroCard from '../components/slots/HeroCard.vue'
 import Card_Resa from '../components/slots/Card_Resa.vue'
-import CardPhotoMenu from '../components/CardPhotoMenu.vue';
 import Dishes_Menu from '../components/Dishes_Menu.vue';
+import CardPhotoAppetizer from '../components/CardPhotoAppetizer.vue';
 
 </script>
 <template>
@@ -13,7 +13,7 @@ import Dishes_Menu from '../components/Dishes_Menu.vue';
         <template #ss-titre>Massa praesent sit suspendisse ac volutpat amet. Commodo elit at non neque ullamcorper id.</template>
         </HeroCard>
     </v-container>
-        <CardPhotoMenu/>
+        <CardPhotoAppetizer/>
         <Dishes_Menu/>
         <Card_Resa>
             <div class="bg-img_resa"></div>
