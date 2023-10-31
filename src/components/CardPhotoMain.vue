@@ -42,7 +42,9 @@
         color: rgb(250, 211, 144);
         font-weight: 500;
     }
-    
+    .font-weight-bold{
+         font-size: 1.5rem;
+    }
     h2 {
         font-size: 3rem;
         font-weight: 700;
