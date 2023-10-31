@@ -51,11 +51,11 @@ const dishes = ref([
 }
 
 .text-subtitle-1 {
-  color: #7a7a7a;
+  color: #909091;
 }
 
 .text {
-  color: #7a7a7a;
+  color: #1a1a1a;
   font-weight: 700;
   font-size: 0.81rem;
 }
