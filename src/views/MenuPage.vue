@@ -20,8 +20,8 @@ import CardPhotoDessert from '../components/CardPhotoDessert.vue';
         <Dishes_Menu/>
         <CardPhotoDessert/>
         <Dishes_Menu/>
-        <Card_Resa>
-            <div class="bg-img_resa"></div>
+        <Card_Resa class="bg-img_resa">
+            
         </Card_Resa>
 </template>
 <style scoped>
@@ -43,9 +43,9 @@ h1{
 }
 
 .bg-img_resa {
-    height: 100vh;
+    color: white;
     background-image: linear-gradient(rgba(0, 0, 0, 0.56), rgba(102, 99, 99, 0.56)),
-    url('src\assets\img\topview.webp');
+    url("C:\Users\Thomas Magnum\RestoNYUS\src\assets\img\topview.webp");
     background-size: cover;
 }
 </style>

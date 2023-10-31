@@ -1,11 +1,10 @@
 <template>
     <v-sheet
       class="d-flex align-center justify-center flex-wrap text-center mx-auto px-4"
-      color="transparent"
+      color="transparente"
       elevation="0"
       height="550"
       rounded
-      max-width="900"
       width="100%">
       <div>
         <h1 class="text-h2 font-weight-black">Réservation</h1>
