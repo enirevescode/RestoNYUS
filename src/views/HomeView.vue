@@ -1,12 +1,8 @@
 <script setup>
-
-
 import Card_Accueil from '../components/Card_Accueil.vue';
 import Dishes_Menu from '../components/Dishes_Menu.vue';
 import Card_Img_Cake from '../components/slots/Card_Img_Cake.vue';
 import Card_Resa from '../components/slots/Card_Resa.vue'
-
-
 </script>
 
 <template>

@@ -1,13 +1,11 @@
 <script setup>
 import NavBar_Route from '@/components/NavBar_Route.vue';
-
-
 </script>
 <template>
 <div>
     <v-toolbar height="100">  
        <v-img
-       src="../assets/img/logo.webp"
+       src="\src\assets\img\logo.webp"
        alt="logo" height="50" class="ml-n16"
        ></v-img>
       <v-spacer></v-spacer> 

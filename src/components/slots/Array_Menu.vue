@@ -58,7 +58,7 @@ const dishes = ref([
         <v-row align-content='stretch' no-gutters style="height: auto;" v-for="dish in dishes" :key="dish.id">
         <v-col cols="4" v-for="n in 3">
           <v-sheet class="px-3 mx-3" color= "transparent">
-            <p class="text-h6 text-left">{{dish.plat}} - {{ dish.prix }}</p>
+            <p class="text text-left">{{dish.plat}} - {{ dish.prix }}</p>
             <p class="text-subtitle-1 text-left">{{dish.ingredient}}</p>
             <v-divider class="border-opacity-50 ml-1 mr-6 my-5" color="#7a7a7a" inset></v-divider>
           </v-sheet>
@@ -79,8 +79,9 @@ const dishes = ref([
   color: #7a7a7a;
 }
 
-.text-h6 {
+.text {
   color: #7a7a7a;
-  font-weight: 200;
+  font-weight: 700;
+  font-size: 0.81rem;
 }
 </style>

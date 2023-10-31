@@ -24,7 +24,7 @@ import CardPhotoAppetizer from '../components/CardPhotoAppetizer.vue';
   max-width: 100%;
 }
 .background-color{
-    background-color: 
+    background-color: red;
 }
 #menu {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(102, 99, 99, 0.8)), url('@/assets/img/signature.webp');
