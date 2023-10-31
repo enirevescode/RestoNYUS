@@ -25,31 +25,6 @@ const dishes = ref([
                 "plat": "IMPORTED OYSTERS GRILL (5 PIECES)",
                 "prix": "20.00",
                 "ingredient": "Oysters / Veggie / Ginger"
-                  },
-                  {
-                "id": 5,
-                "plat": "LEMON AND GARLIC GREEN BEANS",
-                "prix": "15.00",
-                "ingredient": "Lemon / Garlic / Beans"
-                  },
-                  {
-                "id": 6,
-                "plat": "BACON-WRAPPED SHRIMP WITH GARLIC",
-                "prix": "21.50",
-                "ingredient": "Bacon / Shrimp / Garlic"
-                  },
-                  {
-                "id": 7,
-                "plat": "LAMB-BEEF KOFKA SKEWERS WITH TZATZIKI",
-                "prix": "18.50",
-                "ingredient": "Lamb / Wine / Butter"
-                  },
-                  {
-                "id": 8,
-                "category": "appetizer",
-                "plat": "IMPORTED OYSTERS GRILL (5 PIECES)",
-                "prix": "20.00",
-                "ingredient": "Oysters / Veggie / Ginger"
                   }
 ])
 </script>

@@ -3,7 +3,8 @@ import HeroCard from '../components/slots/HeroCard.vue'
 import Card_Resa from '../components/slots/Card_Resa.vue'
 import Dishes_Menu from '../components/Dishes_Menu.vue';
 import CardPhotoAppetizer from '../components/CardPhotoAppetizer.vue';
-
+import CardPhotoMain from '../components/CardPhotoMain.vue';
+import CardPhotoDessert from '../components/CardPhotoDessert.vue';
 </script>
 <template class="background-color">
    
@@ -14,6 +15,10 @@ import CardPhotoAppetizer from '../components/CardPhotoAppetizer.vue';
         </HeroCard>
     </v-container >
         <CardPhotoAppetizer/>
+        <Dishes_Menu/>
+        <CardPhotoMain/>
+        <Dishes_Menu/>
+        <CardPhotoDessert/>
         <Dishes_Menu/>
         <Card_Resa>
             <div class="bg-img_resa"></div>

@@ -21,7 +21,7 @@ import {ref} from 'vue';
         <br>
         <v-card class="bg-transparent ml-1">
           <v-img 
-            :src="require('@/assets/logo.webp')"
+            src="src\assets\img\logo.webp"
             :width="120"
             alt="logo" />
               <v-card-text class="text-justify" variant="flat">
