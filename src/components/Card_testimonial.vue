@@ -4,21 +4,21 @@ import { ref } from 'vue';
 const temoignages = ref ([
          {
        "id": 1,
-       "img": "src\assets\img\emma.png",
+       "img": "src/assets/img/emma.png",
        "alt": "portrait",
        "name": "Emma Odinson",
        "avis": "Risus donec neque egestas ultrices ullamcorper cursus aliquam nunc. Cras est sit libero, est in scelerisque donec. Tincidunt malesuada odio neque et vel fringilla elit. Placerat turpis mus donec id vel"
           },
           {
        "id": 2,
-       "img": "src\assets\img\diana.png",
+       "img": "src/assets/img/diana.png",
        "alt": "portrait",
        "name":"Diana Annakin",
        "avis": "Donec neque egestas ultrices ullamcorper cursus aliquam nunc. Cras est sit libero, est in scelerisque donec. Tincidunt malesuada odio neque et vel fringilla elit. Placerat turpis mus donec id vel"
           },
           {
        "id": 3,
-       "img": "src\assets\img\kyle.png",
+       "img": "src/assets/img/kyle.png",
        "alt": "portrait",
        "name":"Kyle Smith",
        "avis": "Neque egestas ultrices ullamcorper cursus aliquam nunc. Cras est sit libero, est in scelerisque donec. Tincidunt malesuada odio neque et vel fringilla elit. Placerat turpis mus donec id vel"
@@ -62,10 +62,11 @@ const temoignages = ref ([
  <style scoped>
  .testi{
    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(102, 99, 99, 0.8)),
-   url('src\assets\img\lunch.webp');
+   url('src/assets/img/lunch.webp');
    opacity: 1;
    transition: background 0.8s, border-radius 0.8s, opacity 0.8s;
-   height: 569px;
+   /* height: 100vh; */
+   object-fit: cover;
  }
  
  .titre1{

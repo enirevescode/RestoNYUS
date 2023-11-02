@@ -13,6 +13,6 @@
 #cake {
   position: relative;
   top: 110px;
-  left: 1470px;
+  left: 1170px;
 }
 </style>

@@ -10,14 +10,15 @@ import Card_Resa from '../components/slots/Card_Resa.vue'
   <div class="bg-img-accueil">
 <br>
 <Card_Accueil/>
-<br>
-<Card_Resa>
-</Card_Resa>
+
 <br>
 <Dishes_Menu/>
 <br>
 <Card_testimonial/>
-<Card_Img_Cake></Card_Img_Cake>
+<br>
+<Card_Resa/>
+
+<Card_Img_Cake/>
 <br>
 
   </div>
