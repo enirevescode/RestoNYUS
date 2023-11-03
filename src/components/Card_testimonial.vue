@@ -66,7 +66,7 @@ const temoignages = ref ([
    opacity: 1;
    transition: background 0.8s, border-radius 0.8s, opacity 0.8s;
    /* height: 100vh; */
-   object-fit: cover;
+   background-size: cover;
  }
  
  .titre1{
