@@ -14,8 +14,7 @@ import Divider_Slot from './slots/Divider_Slot.vue';
 
         <v-btn variant="text">Scroll Down</v-btn>
         </v-container>
-        <Divider_Slot>
-        </Divider_Slot>
+        <Divider_Slot></Divider_Slot>
     </div>
 </template>
 <style scoped>
