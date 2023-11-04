@@ -16,7 +16,6 @@
             <slot name="ss-titre"></slot>
             </div>
       </div>
-        
     </v-sheet>
 </template>
 <style>

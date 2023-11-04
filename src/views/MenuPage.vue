@@ -6,9 +6,9 @@ import CardPhotoAppetizer from '../components/CardPhotoAppetizer.vue';
 import CardPhotoMain from '../components/CardPhotoMain.vue';
 import CardPhotoDessert from '../components/CardPhotoDessert.vue';
 </script>
-<template class="background-color">
+<template>
    
-    <v-container id="menu">
+    <v-container id="menu" class="Bckgd_Img Img_Size">
         <HeroCard>
         <template #titre>Our Menu</template>
         <template #ss-titre>Massa praesent sit suspendisse ac volutpat amet. Commodo elit at non neque ullamcorper id.</template>
@@ -20,21 +20,17 @@ import CardPhotoDessert from '../components/CardPhotoDessert.vue';
         <Dishes_Menu/>
         <CardPhotoDessert/>
         <Dishes_Menu/>
-        <Card_Resa class="bg-img_resa">
-            
+        <Card_Resa class="bg-img_resa Bckgd_Img">
+
         </Card_Resa>
 </template>
 <style scoped>
 .v-container {
   max-width: 100%;
 }
-.background-color{
-    background-color: red;
-}
+
 #menu {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(102, 99, 99, 0.8)), url('@/assets/img/signature.webp');
-    background-size: cover;
-    height: 750px;
+    background-image: url('@/assets/img/signature.webp');
 }
 
 h1{

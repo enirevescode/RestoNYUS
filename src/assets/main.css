@@ -1,10 +1,15 @@
 @import './base.css';
 
-
+/*Background img en voile gris et l'image glissante sur toutes les photos de menu et de card*/
    .Bckgd_Img {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(102, 99, 99, 0.8));
+       background: no-repeat fixed;
        height: 90vh;
-       background-size: cover;
+       overflow: hidden;
+       background-color: rgba(50, 70, 80, 0.7);
+       background-blend-mode: hard-light;
+   }
+   .Img_Size {
+        height: 670px;
    }
 
 

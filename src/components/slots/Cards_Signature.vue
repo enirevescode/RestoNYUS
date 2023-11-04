@@ -13,7 +13,6 @@
  <style scoped>
  #signature{
     background-image: url('src/assets/img/signature.webp');
-    /* height: 400px; */
  }
  .text-h2, .text-h6, p {
    color: white;

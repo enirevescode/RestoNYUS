@@ -1,7 +1,6 @@
 <script setup>
 import HeroCard from './slots/HeroCard.vue';
 import Divider_Slot from './slots/Divider_Slot.vue';
-
 </script>
 <template>
     <div>
@@ -30,11 +29,9 @@ h6 {
     margin-top: 250px;
     margin-bottom: -55px;
 }
-
 button {
     color: white;
     display: flex;
     margin:auto;
 }
-
 </style>

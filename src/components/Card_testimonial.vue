@@ -61,12 +61,7 @@ const temoignages = ref ([
 
  <style scoped>
  .testi{
-   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(102, 99, 99, 0.8)),
-   url('src/assets/img/lunch.webp');
-   opacity: 1;
-   transition: background 0.8s, border-radius 0.8s, opacity 0.8s;
-   /* height: 100vh; */
-   background-size: cover;
+   background-image: url('src/assets/img/lunch.webp');
  }
  
  .titre1{

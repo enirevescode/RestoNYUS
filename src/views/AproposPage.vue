@@ -3,7 +3,7 @@ import HeroCard from '../components/slots/HeroCard.vue'
 </script>
 <template>
     
-    <v-container id="menu">
+    <v-container id="menu" class="Bckgd_Img">
         <HeroCard>
         <template #titre>About Us</template>
         <template #ss-titre>Massa praesent sit suspendisse ac volutpat amet. Commodo elit at non neque ullamcorper id.</template>
