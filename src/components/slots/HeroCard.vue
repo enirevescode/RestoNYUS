@@ -4,7 +4,6 @@
       elevation="0"
       height="550"
       rounded
-      max-width="900"
       width="100%"
       color="transparent"
     >

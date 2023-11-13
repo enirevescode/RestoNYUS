@@ -3,7 +3,7 @@ import HeroCard from '../components/slots/HeroCard.vue'
 </script>
 <template>
     
-    <v-container id="menu" class="Bckgd_Img">
+    <v-container id="menu" class="Bckgd_Img Img_Size">
         <HeroCard>
         <template #titre>About Us</template>
         <template #ss-titre>Massa praesent sit suspendisse ac volutpat amet. Commodo elit at non neque ullamcorper id.</template>
@@ -16,8 +16,6 @@ import HeroCard from '../components/slots/HeroCard.vue'
 }
 
 #menu {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(102, 99, 99, 0.8)), url('@/assets/img/about-section.webp');
-    background-size: cover;
-    height: 750px;
+    background-image: url('@/assets/img/about-section.webp');
 }
 </style>

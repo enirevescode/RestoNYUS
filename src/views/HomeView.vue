@@ -29,6 +29,5 @@ import Card_Resa from '../components/slots/Card_Resa.vue'
 <style scoped>
 .bg-img-accueil{
    background-image: url('src/assets/img/homepage.webp');
-   height: 670px;
-  }
+}
 </style>
