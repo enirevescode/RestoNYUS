@@ -1,5 +1,4 @@
 <template>
-   
    <v-sheet class="mb-16">
     <div id="signature" class="Bckgd_Img">
     <h3 class="text-h6">HOMEMADE</h3>
@@ -7,7 +6,6 @@
     <p >Neque elit, rutrum in laoreet nec eget scelerisque volutpat sit.</p><p>Bibendum tincidunt a scelerisque consectetur ultrices elementum pulvinar non. </p>
     </div>  
    </v-sheet>
-
  </template>
  
  <style scoped>

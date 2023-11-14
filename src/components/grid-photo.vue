@@ -1,6 +1,5 @@
 <script setup>
 
-
    const photos = [
         { "src": 'src/assets/img/fine-dining-food.webp',
         "alt":"dining",

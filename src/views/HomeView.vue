@@ -23,8 +23,7 @@ import Card_Resa from '../components/slots/Card_Resa.vue'
 <Card_Resa/>
 <Card_Img_Cake/>
 <br>
-
-  </div>
+</div>
 </template>
 <style scoped>
 .bg-img-accueil{

@@ -38,20 +38,18 @@ const temoignages = ref ([
         <v-avatar size="95" color="#f5c61c" class="mx-auto">
          <img width ="80" height ="80" :src="temoignage.img" :aspect-ratio="1" class="mx-auto"/>
         </v-avatar>
-        <v-sheet 
-        class="pt-16 px-6 mb-n16"
-        color= "#1a1a1a"
-        width="367px"
-        height="320px"
-        rounded="lg"
-        >
-        <div class="text">
-         <p class="avis">{{ temoignage.avis }}</p>
-         <p class="name">{{ temoignage.name }}</p>
-        </div>
- 
- 
-        </v-sheet>
+            <v-sheet 
+            class="pt-16 px-6 mb-n16"
+            color= "#1a1a1a"
+            width="367px"
+            height="320px"
+            rounded="lg"
+            >
+                <div class="text">
+                <p class="avis">{{ temoignage.avis }}</p>
+                <p class="name">{{ temoignage.name }}</p>
+                </div>
+            </v-sheet>
       </v-col>
     </v-row>
   </v-container>
