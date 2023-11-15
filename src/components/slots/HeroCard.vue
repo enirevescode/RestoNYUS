@@ -1,3 +1,4 @@
+<!--Entête des pages d'accueil de chq menu-->
 <template>
     <v-sheet
       class="d-flex align-center justify-center flex-wrap text-center mx-auto px-4 text-white"

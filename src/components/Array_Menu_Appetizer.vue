@@ -1,4 +1,4 @@
-<!--component ds menupage + homepage -->
+<!--component ds menupage -->
 <script setup>
 import { useMenuItemStore } from '../stores/menuItem';
 

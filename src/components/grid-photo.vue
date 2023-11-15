@@ -1,3 +1,4 @@
+<!--Grille de photos sur homeview-->
 <script setup>
 
    const photos = [

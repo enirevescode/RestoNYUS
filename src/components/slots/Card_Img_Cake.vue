@@ -1,3 +1,4 @@
+<!--Photo du cake / homeview au niveau du footer-->
 <template>
    <div>
    <v-img

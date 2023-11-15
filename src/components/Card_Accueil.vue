@@ -1,3 +1,4 @@
+<!--Entête de la page d'accueil en intégration ds 1 slot-->
 <script setup>
 import HeroCard from './slots/HeroCard.vue';
 import Divider_Slot from './slots/Divider_Slot.vue';

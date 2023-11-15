@@ -1,3 +1,4 @@
+<!--Card horizontal sur menupage-->
 <template>
 <v-row>
     <v-col cols="4" class="appetizer">

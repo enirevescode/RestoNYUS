@@ -1,3 +1,4 @@
+<!--Card sur toutes les pages avec ou sans backgd img-->
 <template>
     <v-sheet
       class="d-flex align-center justify-center flex-wrap text-center mx-auto px-4"
