@@ -2,11 +2,11 @@
 <script setup>
 import { useMenuItemStore } from '../stores/menuItem';
 
-const { desserts } = useMenuItemStore()
+const { appetizers } = useMenuItemStore()
 </script>
 <template>
     <v-container class="my-16 mx-16">
-        <v-row align-content='stretch' no-gutters style="height: auto;" v-for="dish in desserts" :key="dish.id">
+        <v-row align-content='stretch' no-gutters style="height: auto;" v-for="dish in appetizers" :key="dish.id">
         <v-col cols="4" v-for="n in 3">
           <v-sheet class="px-3 mx-3" color= "transparent">
             <p class="text text-left">{{dish.plat}} - {{ dish.prix }}</p>

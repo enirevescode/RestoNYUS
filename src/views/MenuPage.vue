@@ -6,6 +6,7 @@ import CardPhotoAppetizer from '../components/CardPhotoAppetizer.vue';
 import CardPhotoMain from '../components/CardPhotoMain.vue';
 import CardPhotoDessert from '../components/CardPhotoDessert.vue';
 import Array_Menu from '../components/Array_Menu.vue';
+import Array_Menu_Appetizer from '../components/Array_Menu_Appetizer.vue';
 </script>
 <template>
    
@@ -16,6 +17,7 @@ import Array_Menu from '../components/Array_Menu.vue';
         </HeroCard>
     </v-container >
         <CardPhotoAppetizer/>
+        <Array_Menu_Appetizer/>
         <CardPhotoMain/>
         <Array_Menu/>
         <CardPhotoDessert/>

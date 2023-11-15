@@ -28,41 +28,62 @@ export const useMenuItemStore = defineStore('menuItem', {
         "ingredient": "Oysters / Veggie / Ginger"
           }
     ],
-    desserts : [
+    desserts: [
       {
         id: 9,
-        category: "sweet",
-        plat: "Tiramisu",
+        plat: "TIRAMISU",
         prix: "10.00",
         ingredient: "Mascarpone / Amaretto / Café / Biscuit",
       },
       {
         id: 10,
-        category: "sweet",
-        plat: "Tiramisu Fraise",
+        plat: "TIRAMISU FRAISE",
         prix: "12.00",
         ingredient: "Mascarpone / Amaretto / Fraises / Biscuit",
       },
       {
         id: 11,
-        category: "sweet",
-        plat: "Tiramisu Framboise",
+        plat: "TIRAMISU FRAMBOISE",
         prix: "15.00",
         ingredient: "Mascarpone / Amaretto / Framboises / Biscuit",
       },
       {
         id: 11,
-        category: "sweet",
-        plat: "3 Profitéroles au chocolat",
+        plat: "3 PROFITEROLES au CHOCOLAT",
         prix: "15.00",
         ingredient: "Choux / Glace / Coulis choco",
       },
       {
         id: 12,
-        category: "sweet",
-        plat: "3 Profitéroles Fraise",
+        plat: "3 PROFITEROLES FRAISE",
         prix: "15.00",
         ingredient: "Choux / Glace / Coulis fruits rouges",
+      }
+    ],
+    appetizers: [
+      {
+        id: 13,
+        plat: "CALAMARI RINGS",
+        prix: "9.25",
+        ingredient: "Calamar / Beignets",
+      },
+      {
+        id: 14,
+        plat: "GARLIC BREAD",
+        prix: "3.50",
+        ingredient: "Ail / Pain",
+      },
+      {
+        id: 15,
+        plat: "MOZZARELLA STICKS",
+        prix: "5.50",
+        ingredient: "Mozzarella / Beignets",
+      },
+      {
+        id: 16,
+        plat: "FRIED JUMBO SHRIMP",
+        prix: "9.50",
+        ingredient: "Gambas / Beignets / Garlic",
       }
     ]
    })
