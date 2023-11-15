@@ -1,36 +1,11 @@
 <script setup>
-import {ref} from 'vue';
+import { useMenuItemStore } from '../../stores/menuItem';
 
-const dishes = ref([
-                {
-                "id": 1,
-                "plat": "LEMON AND GARLIC GREEN BEANS",
-                "prix": "15.00",
-                "ingredient": "Lemon / Garlic / Beans"
-                  },
-                  {
-                "id": 2,
-                "plat": "BACON-WRAPPED SHRIMP WITH GARLIC",
-                "prix": "21.50",
-                "ingredient": "Bacon / Shrimp / Garlic"
-                  },
-                  {
-                "id": 3,
-                "plat": "LAMB-BEEF KOFKA SKEWERS WITH TZATZIKI",
-                "prix": "18.50",
-                "ingredient": "Lamb / Wine / Butter"
-                  },
-                  {
-                "id": 4,
-                "plat": "IMPORTED OYSTERS GRILL (5 PIECES)",
-                "prix": "20.00",
-                "ingredient": "Oysters / Veggie / Ginger"
-                  }
-])
+const { menuOfDishes } = useMenuItemStore()
 </script>
 <template>
     <v-container class="my-16 mx-16">
-        <v-row align-content='stretch' no-gutters style="height: auto;" v-for="dish in dishes" :key="dish.id">
+        <v-row align-content='stretch' no-gutters style="height: auto;" v-for="dish in menuOfDishes" :key="dish.id">
         <v-col cols="4" v-for="n in 3">
           <v-sheet class="px-3 mx-3" color= "transparent">
             <p class="text text-left">{{dish.plat}} - {{ dish.prix }}</p>
