@@ -6,10 +6,14 @@
        background-color: rgba(102, 99, 99, 0.8);
        background-size: cover;
        overflow: hidden;
-      
    }
    .Img_Size {
         height: 670px;
    }
+
+/*v-container mis en forme*/
+.v-container {
+    max-width: 100%;
+}
 
 

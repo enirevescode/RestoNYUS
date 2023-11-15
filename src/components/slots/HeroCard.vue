@@ -27,7 +27,6 @@
     font-family: "Roboto", sans-serif !important;
     text-transform: none !important;
 }
-
 .text-ss-titre {
     font-size: 1.25rem !important;
     font-weight: 500;

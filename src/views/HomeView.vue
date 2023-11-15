@@ -6,11 +6,10 @@ import GridPhoto from '../components/grid-photo.vue';
 import Card_Img_Cake from '../components/slots/Card_Img_Cake.vue';
 import Card_Resa from '../components/slots/Card_Resa.vue'
 import Array_Menu from '../components/Array_Menu.vue';
-
 </script>
 
 <template>
-  <div class="bg-img-accueil Bckgd_Img Img_Size">
+  
 <br>
 <Card_Accueil/>
 <br>
@@ -23,10 +22,4 @@ import Array_Menu from '../components/Array_Menu.vue';
 <Card_Resa/>
 <Card_Img_Cake/>
 <br>
-</div>
 </template>
-<style scoped>
-.bg-img-accueil{
-   background-image: url('src/assets/img/homepage.webp');
-}
-</style>

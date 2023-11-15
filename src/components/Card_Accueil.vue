@@ -1,21 +1,19 @@
 <!--Entête de la page d'accueil en intégration ds 1 slot-->
 <script setup>
-import HeroCard from './slots/HeroCard.vue';
-import Divider_Slot from './slots/Divider_Slot.vue';
+import HeroCard from '../components/slots/HeroCard.vue';
+
 </script>
 <template>
-    <div>
-        <v-container>
+        <v-container id="bg-img-accueil" class="Bckgd_Img Img_Size">
            <h6>GOOD PLACE. GOOD FOOD.</h6> 
-        <HeroCard>
+        <HeroCard></HeroCard>
         <template #titre>A Really Good Place to Eat In the City of New York!</template>
         <template #ss-titre>Massa praesent sit suspendisse ac volutpat amet. Commodo elit at non neque ullamcorper id.</template>
-        </HeroCard>
+   
 
         <v-btn variant="text">Scroll Down</v-btn>
         </v-container>
-        <Divider_Slot></Divider_Slot>
-    </div>
+
 </template>
 <style scoped>
 h6 {
@@ -34,5 +32,8 @@ button {
     color: white;
     display: flex;
     margin:auto;
+}
+#bg-img-accueil{
+   background-image: url('src/assets/img/homepage.webp');
 }
 </style>

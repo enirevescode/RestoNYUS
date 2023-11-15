@@ -10,6 +10,6 @@
         >
            
         </v-divider>
-         <slot>dzXDFFD</slot>
+         <slot></slot>
     </div>
 </template>
