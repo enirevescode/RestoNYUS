@@ -1,11 +1,11 @@
 <script setup>
 import Card_Accueil from '../components/Card_Accueil.vue';
 import Card_testimonial from '../components/Card_testimonial.vue';
-import Dishes_Menu from '../components/Dishes_Menu.vue';
 import Cards_Signature from '../components/slots/Cards_Signature.vue';
 import GridPhoto from '../components/grid-photo.vue';
 import Card_Img_Cake from '../components/slots/Card_Img_Cake.vue';
 import Card_Resa from '../components/slots/Card_Resa.vue'
+import Array_Menu from '../components/Array_Menu.vue';
 
 </script>
 
@@ -14,7 +14,7 @@ import Card_Resa from '../components/slots/Card_Resa.vue'
 <br>
 <Card_Accueil/>
 <br>
-<Dishes_Menu/>
+<Array_Menu/>
 <br>
 <Card_testimonial/>
 <br>

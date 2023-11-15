@@ -1,10 +1,11 @@
 <script setup>
 import HeroCard from '../components/slots/HeroCard.vue'
 import Card_Resa from '../components/slots/Card_Resa.vue'
-import Dishes_Menu from '../components/Dishes_Menu.vue';
+import Array_Menu_Dessert from '../components/Array_Menu_Dessert.vue';
 import CardPhotoAppetizer from '../components/CardPhotoAppetizer.vue';
 import CardPhotoMain from '../components/CardPhotoMain.vue';
 import CardPhotoDessert from '../components/CardPhotoDessert.vue';
+import Array_Menu from '../components/Array_Menu.vue';
 </script>
 <template>
    
@@ -15,11 +16,10 @@ import CardPhotoDessert from '../components/CardPhotoDessert.vue';
         </HeroCard>
     </v-container >
         <CardPhotoAppetizer/>
-        <Dishes_Menu/>
         <CardPhotoMain/>
-        <Dishes_Menu/>
+        <Array_Menu/>
         <CardPhotoDessert/>
-        <Dishes_Menu/>
+        <Array_Menu_Dessert/>
         <Card_Resa class="bg-img_resa Bckgd_Img">
 
         </Card_Resa>

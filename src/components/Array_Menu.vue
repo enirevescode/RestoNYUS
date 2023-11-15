@@ -1,5 +1,6 @@
+<!--component ds menupage + homepage -->
 <script setup>
-import { useMenuItemStore } from '../../stores/menuItem';
+import { useMenuItemStore } from '../stores/menuItem';
 
 const { menuOfDishes } = useMenuItemStore()
 </script>

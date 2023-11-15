@@ -27,6 +27,43 @@ export const useMenuItemStore = defineStore('menuItem', {
         "prix": "20.00",
         "ingredient": "Oysters / Veggie / Ginger"
           }
+    ],
+    desserts : [
+      {
+        id: 9,
+        category: "sweet",
+        plat: "Tiramisu",
+        prix: "10.00",
+        ingredient: "Mascarpone / Amaretto / Café / Biscuit",
+      },
+      {
+        id: 10,
+        category: "sweet",
+        plat: "Tiramisu Fraise",
+        prix: "12.00",
+        ingredient: "Mascarpone / Amaretto / Fraises / Biscuit",
+      },
+      {
+        id: 11,
+        category: "sweet",
+        plat: "Tiramisu Framboise",
+        prix: "15.00",
+        ingredient: "Mascarpone / Amaretto / Framboises / Biscuit",
+      },
+      {
+        id: 11,
+        category: "sweet",
+        plat: "3 Profitéroles au chocolat",
+        prix: "15.00",
+        ingredient: "Choux / Glace / Coulis choco",
+      },
+      {
+        id: 12,
+        category: "sweet",
+        plat: "3 Profitéroles Fraise",
+        prix: "15.00",
+        ingredient: "Choux / Glace / Coulis fruits rouges",
+      }
     ]
    })
 })

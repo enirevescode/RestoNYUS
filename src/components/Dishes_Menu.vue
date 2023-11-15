@@ -1,5 +1,5 @@
 <script setup>
-import Array_Menu from './slots/Array_Menu.vue';
+import Array_Menu from './Array_Menu.vue';
 
 
 </script>
