@@ -16,7 +16,9 @@ import HeroCard from '../components/slots/HeroCard.vue';
 
 </template>
 <style scoped>
-
+.v-container {
+  max-width: 100%;
+}
 h6 {
     color: white;
     text-align: center;
@@ -35,6 +37,7 @@ button {
     margin:auto;
 }
 #bg-img-accueil{
-   background-image: url('src/assets/img/homepage.webp');
+   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(102, 99, 99, 0.8)),
+   url('src/assets/img/homepage.webp');
 }
 </style>

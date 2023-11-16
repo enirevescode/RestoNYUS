@@ -3,12 +3,16 @@
 /*Background img en voile gris et l'image glissante sur toutes les photos de menu et de card*/
    .Bckgd_Img {
        background: no-repeat fixed;
-       background-color: rgba(102, 99, 99, 0.8);
+       
        background-size: cover;
        overflow: hidden;
    }
    .Img_Size {
-        height: 670px;
+        height: 750px;
+   }
+
+   .Img_Size_Card{
+        height: 520px;
    }
 
 

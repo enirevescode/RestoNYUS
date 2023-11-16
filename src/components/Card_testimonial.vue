@@ -28,7 +28,7 @@ const temoignages = ref ([
 ])
 </script>
 <template>
-   <div id="testi">
+   <div id="testi" class="Img_Size_Card">
    <h3 class="titre1">TESTIMONIAL</h3>
    <h2 class="titre2">What They Say</h2>
    
@@ -59,9 +59,13 @@ const temoignages = ref ([
  </template>
 
  <style scoped>
+ /* .v-container {
+  max-width: 100%;
+} */
  #testi{
-   background-image: url('src/assets/img/lunch.webp');
-   
+   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(102, 99, 99, 0.8)),
+   url('src/assets/img/lunch.webp');
+   background-size: cover;
  }
  
  .titre1{
