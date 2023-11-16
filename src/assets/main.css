@@ -1,20 +1,24 @@
 @import './base.css';
 
 /*Background img en voile gris et l'image glissante sur toutes les photos de menu et de card*/
-   .Bckgd_Img {
-       background: no-repeat fixed;
-       
-       background-size: cover;
-       overflow: hidden;
-   }
-   .Img_Size {
-        height: 750px;
-   }
+.Bckgd_Img {
+     background: no-repeat fixed;
+     background-color: #1a1a1a;
+     opacity: 1.76;
+     transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+     background-size: cover;
+     overflow: hidden;
+}
+.Img_Size {
+     height: 750px;
+}
 
-   .Img_Size_Card{
-        height: 520px;
-   }
-
+.Img_Size_Card{
+     height: 520px;
+}
+.v-container{
+     max-width: 100%;
+}
 
 
 

@@ -32,12 +32,8 @@ import Array_Menu_Appetizer from '../components/Array_Menu_Appetizer.vue';
 }
 
 #menu {
-    background-image: url('@/assets/img/signature.webp');
-}
-
-h1{
-    color: red;
-    font-weight: 900;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.56), rgba(102, 99, 99, 0.56)),
+    url('@/assets/img/signature.webp');
 }
 
 .bg-img_resa {

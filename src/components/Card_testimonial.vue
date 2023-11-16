@@ -37,7 +37,7 @@ const temoignages = ref ([
     <v-row no-gutters>
       <v-col v-for="temoignage in temoignages" :key="temoignage.id">
         <v-avatar size="95" color="#f5c61c" class="mx-auto">
-         <img width ="80" height ="80" :src="temoignage.img" :aspect-ratio="1" class="mx-auto"/>
+         <img width ="80" height ="80" :src="temoignage.img" :aspect-ratio="1" class="ma-auto"/>
         </v-avatar>
             <v-sheet 
             class="pt-16 px-6 mb-n16"
@@ -89,12 +89,12 @@ const temoignages = ref ([
  
  .v-avatar {
   z-index: 1000;
-  margin-bottom: -40px;
+  margin-bottom: -50px;
   display: block;
  }
  
  .v-container {
-  margin-top: 120px;
+  margin-top: 70px;
  }
  .name {
    text-align: center;

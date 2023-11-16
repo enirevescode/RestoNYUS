@@ -16,6 +16,7 @@ import HeroCard from '../components/slots/HeroCard.vue'
 }
 
 #menu {
-    background-image: url('@/assets/img/about-section.webp');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.56), rgba(102, 99, 99, 0.56)),
+    url('@/assets/img/about-section.webp');
 }
 </style>

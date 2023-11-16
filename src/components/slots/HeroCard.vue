@@ -18,8 +18,8 @@
       </div>
     </v-sheet>
 </template>
-<style>
-.text-titre {
+<style scoped>
+.text-titre, p {
     font-size: 4.5rem !important;
     font-weight: 700;
     line-height: 3.75rem;

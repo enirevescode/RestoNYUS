@@ -7,7 +7,8 @@ import HeroCard from '../components/slots/HeroCard.vue';
         <v-container id="bg-img-accueil" class="Bckgd_Img Img_Size">
            <h6>GOOD PLACE. GOOD FOOD.</h6> 
         <HeroCard>
-        <template #titre>A Really Good Place to Eat In the City of New York!</template>
+        <template #titre><p>A Really Good Place to Eat</p>
+        <p>In the City of New York</p></template>
         <template #ss-titre>Massa praesent sit suspendisse ac volutpat amet. Commodo elit at non neque ullamcorper id.</template>
         </HeroCard>
 
@@ -25,7 +26,7 @@ h6 {
     font-size: 1rem !important;
     font-weight: 500;
     line-height: 1.25rem;
-    letter-spacing: 0.5em !important;
+    letter-spacing: 0.2em !important;
     font-family: "Roboto", sans-serif !important;
     text-transform: none !important;
     margin-top: 250px;
@@ -39,5 +40,9 @@ button {
 #bg-img-accueil{
    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(102, 99, 99, 0.8)),
    url('src/assets/img/homepage.webp');
+   height: 870px;
 }
+
+
+
 </style>

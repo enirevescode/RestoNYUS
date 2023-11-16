@@ -27,8 +27,9 @@ import HeroCard from '../components/slots/HeroCard.vue'
 }
 
 #menu {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(102, 99, 99, 0.8)), url('@/assets/img/contact-us.webp');
-    /* background-size: cover; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(102, 99, 99, 0.8)),
+    url('@/assets/img/contact-us.webp');
+    background-size: cover;
     height: 750px;
 }
 
