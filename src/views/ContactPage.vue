@@ -23,7 +23,7 @@ import HeroCard from '../components/slots/HeroCard.vue'
 <style scoped>
 .v-container {
   max-width: 100%;
-  background-color: #e9ecef;
+  /* background-color: #e9ecef; */
 }
 
 #menu {

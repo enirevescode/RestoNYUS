@@ -6,16 +6,17 @@ import HeroCard from '../components/slots/HeroCard.vue';
 <template>
         <v-container id="bg-img-accueil" class="Bckgd_Img Img_Size">
            <h6>GOOD PLACE. GOOD FOOD.</h6> 
-        <HeroCard></HeroCard>
+        <HeroCard>
         <template #titre>A Really Good Place to Eat In the City of New York!</template>
         <template #ss-titre>Massa praesent sit suspendisse ac volutpat amet. Commodo elit at non neque ullamcorper id.</template>
-   
+        </HeroCard>
 
         <v-btn variant="text">Scroll Down</v-btn>
         </v-container>
 
 </template>
 <style scoped>
+
 h6 {
     color: white;
     text-align: center;

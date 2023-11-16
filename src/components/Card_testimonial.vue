@@ -28,7 +28,7 @@ const temoignages = ref ([
 ])
 </script>
 <template>
-   <div class="testi">
+   <div id="testi">
    <h3 class="titre1">TESTIMONIAL</h3>
    <h2 class="titre2">What They Say</h2>
    
@@ -59,8 +59,9 @@ const temoignages = ref ([
  </template>
 
  <style scoped>
- .testi{
+ #testi{
    background-image: url('src/assets/img/lunch.webp');
+   
  }
  
  .titre1{
