@@ -38,7 +38,6 @@
                       <v-img width ="520" height ="684" :src="require('@/assets/chef-3.webp')" :aspect-ratio="1" 
                       alt="serveur regard éloquant !" cover>
                       </v-img>
-                     
                    </div>
                 </v-card-item>
              </v-card>

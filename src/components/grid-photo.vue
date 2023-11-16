@@ -11,7 +11,6 @@
         { "src": 'src/assets/img/food-on-the-table.webp', "alt":"sort of food", "flex": 4 },
         { "src": 'src/assets/img/drink-at-daytime.webp', "alt":"drinking", "flex": 4 },
         { "src": 'src/assets/img/chef-in-restaurant-kitchen.webp', "alt":"Our Chief", "flex": 4 }
-        
       ]
 </script>
 <template>

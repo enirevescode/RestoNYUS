@@ -57,7 +57,6 @@
                             To make everyone entering the establishment feel at home and find their atmosphere.
                          </div>
                       </v-card-text>
- 
                    </div>
                 </v-card-item>
              </v-card>

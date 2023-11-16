@@ -22,8 +22,7 @@ import Card_Img_Cake from '../components/slots/Card_Img_Cake.vue';
 <GridPhoto/>
 <Our_Teams/>
 <Card_testimonial/>
-<br>
-
 <Card_Resa/>
 <Card_Img_Cake/>
 </template>
+<style></style>
