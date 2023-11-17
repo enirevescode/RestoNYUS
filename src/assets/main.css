@@ -16,9 +16,10 @@
 .Img_Size_Card{
      height: 520px;
 }
-/* .v-container{
-     max-width: 100%;
-} */
+
+.backgdColor {
+     background-color: #e9ecef;
+ }
 
 
 

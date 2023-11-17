@@ -1,6 +1,6 @@
 <!--Photo du cake / homeview au niveau du footer-->
 <template>
-   <div>
+   <div class="backgdColor">
     <v-container>
    <v-img
     src='src\assets\img\cake.webp'

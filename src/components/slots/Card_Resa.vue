@@ -2,7 +2,7 @@
 <template>
     <v-sheet
       class="d-flex align-center justify-center flex-wrap text-center mx-auto px-4"
-      color="transparente"
+      color="#FFFFFF00"
       elevation="0"
       height="550"
       rounded

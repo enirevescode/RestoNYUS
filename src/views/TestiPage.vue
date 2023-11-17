@@ -1,6 +1,7 @@
 <script setup>
 import HeroCard from '../components/slots/HeroCard.vue'
 import Card_Text_Page_Testi from '../components/Card_Text_Page_Testi.vue'
+import Card_Avis from '../components/Card_Avis.vue';
 </script>
 
 <template>
@@ -11,8 +12,12 @@ import Card_Text_Page_Testi from '../components/Card_Text_Page_Testi.vue'
         <template #ss-titre>Massa praesent sit suspendisse ac volutpat amet. Commodo elit at non neque ullamcorper id.</template>
         </HeroCard>
     </v-container>
-<br>
+<div class="backgdColor">
+    <br>
     <Card_Text_Page_Testi/>
+    <Card_Avis/>
+
+</div>
 </template>
 <style scoped>
 .v-container {
