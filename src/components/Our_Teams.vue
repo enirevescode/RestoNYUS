@@ -1,3 +1,4 @@
+<!--Grille de photo de serveur dans homepage-->
 <template>
     <!-- 1ere card sans img -->
     <v-container >
@@ -14,7 +15,7 @@
              <v-card class="my-10" variant="text">
                 <v-card-item>
                    <div>
-                      <v-img width ="600" height ="900" :src="require('@/assets/chef-2.webp')" :aspect-ratio="1" class= "d-flex justify-center align-center" 
+                      <v-img width ="600" height ="900" src="src/assets/img/chef-2.webp" :aspect-ratio="1" class= "d-flex justify-center align-center" 
                       alt="présentation plat par 1 serveur, fond noir" cover>
                       </v-img>
                    </div>
@@ -26,7 +27,7 @@
              <v-card max-width="488" class="mb-10" variant="text">
                 <v-card-item>
                    <div>
-                      <v-img width ="360" height ="540" :src="require('@/assets/chef.webp')" :aspect-ratio="1" class= "d-flex justify-center align-center" 
+                      <v-img width ="360" height ="540" src="src/assets/img/chef.webp" :aspect-ratio="1" class= "d-flex justify-center align-center" 
                       alt="serveur présentant 1 milkshake" cover>
                       </v-img>
                    </div>
@@ -35,7 +36,7 @@
              <v-card class="my-10" variant="text">
                 <v-card-item>
                    <div>
-                      <v-img width ="520" height ="684" :src="require('@/assets/chef-3.webp')" :aspect-ratio="1" 
+                      <v-img width ="520" height ="684" src="src/assets/img/chef-3.webp" :aspect-ratio="1" 
                       alt="serveur regard éloquant !" cover>
                       </v-img>
                    </div>

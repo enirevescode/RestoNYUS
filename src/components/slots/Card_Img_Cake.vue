@@ -1,6 +1,7 @@
 <!--Photo du cake / homeview au niveau du footer-->
 <template>
    <div>
+    <v-container>
    <v-img
     src='src\assets\img\cake.webp'
     width="275"
@@ -8,6 +9,7 @@
     id="cake"
     ></v-img>
     <slot></slot>
+    </v-container>
     </div>
 </template>
 <style scoped>
