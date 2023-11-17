@@ -97,6 +97,10 @@ import {ref} from 'vue';
 </template>
 
 <style scoped>
+.v-row {
+  width: 1000px;
+  margin: auto;
+}
 .navbar {
   display: flex;
   flex-direction: column;

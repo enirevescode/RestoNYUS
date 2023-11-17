@@ -1,6 +1,8 @@
 <script setup>
 import HeroCard from '../components/slots/HeroCard.vue'
+import Card_Text from '../components/Card_Text.vue'
 </script>
+
 <template>
     
     <v-container id="menu" class="Bckgd_Img Img_Size">
@@ -9,6 +11,8 @@ import HeroCard from '../components/slots/HeroCard.vue'
         <template #ss-titre>Massa praesent sit suspendisse ac volutpat amet. Commodo elit at non neque ullamcorper id.</template>
         </HeroCard>
     </v-container>
+<br>
+    <Card_Text/>
 </template>
 <style scoped>
 .v-container {
