@@ -37,7 +37,7 @@
     left: 715px;
   }
   .v-sheet {
-    margin-top: 190px;
+    margin-top: 100px;
   }
   .text-h5 {
 font-size: 0.75rem;

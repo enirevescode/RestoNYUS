@@ -2,6 +2,7 @@
 import HeroCard from '../components/slots/HeroCard.vue'
 import Card_Text_Page_Testi from '../components/Card_Text_Page_Testi.vue'
 import Card_Avis from '../components/Card_Avis.vue';
+import Card_Resa from '../components/slots/Card_Resa.vue';
 </script>
 
 <template>
@@ -16,6 +17,7 @@ import Card_Avis from '../components/Card_Avis.vue';
     <br>
     <Card_Text_Page_Testi/>
     <Card_Avis/>
+    <Card_Resa/>
 
 </div>
 </template>
