@@ -16,6 +16,9 @@ import { RouterLink } from 'vue-router';
           <v-btn>
              <RouterLink active-class="active" to="/apropos">A propos</RouterLink>
           </v-btn>
+          <v-btn>
+             <RouterLink active-class="active" to="/Temoignage">AVIS</RouterLink>
+          </v-btn>
        </div>
     </div>
 </template>
